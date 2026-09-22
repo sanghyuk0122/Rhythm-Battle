@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Lobby.unity
     guid: 8cffbb98eb1c27f49826b21863fd75fb
   - enabled: 1
-    path: Assets/Scenes/Game.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
     path: Assets/Scenes/Setting.unity
     guid: 59b951e145c828647a3d4a2a79480a4c
   - enabled: 1
     path: Assets/Scenes/SongSelect.unity
     guid: affe09a73df5b78498748716cdafbdd7
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
