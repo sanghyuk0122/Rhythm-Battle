@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5677894654168521803}
-  - component: {fileID: 5976184907770038617}
   - component: {fileID: 189642966251923770}
   - component: {fileID: 8375140238696565988}
   - component: {fileID: 8701533666522819039}
-  - component: {fileID: 4261677701259458028}
+  - component: {fileID: 3099970532897274606}
+  - component: {fileID: 6821889925532962234}
   m_Layer: 0
   m_Name: Note
   m_TagString: Note
@@ -36,23 +36,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5976184907770038617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2515732401198174371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba3b6384ac372284a9136d0eb07041d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::NoteSetting
-  speed: 6
-  CanTouchA: 0
-  CanTouchB: 0
-  CanTouchC: 0
-  CanTouchD: 0
 --- !u!33 &189642966251923770
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -131,7 +114,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &4261677701259458028
+--- !u!114 &3099970532897274606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2515732401198174371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9fbb9a1ca8fa9540a36406d7ff880b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Tile
+--- !u!54 &6821889925532962234
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,7 +148,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
