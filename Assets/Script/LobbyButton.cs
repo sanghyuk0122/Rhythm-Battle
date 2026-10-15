@@ -1,25 +1,30 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class StartButton : MonoBehaviour
+public class LobbyButton : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public string lobbySceneName = "Lobby";
+    public string songSelectSceneName = "SongSelect";
+
+    public void GoToLobby()
     {
-        
+        LoadSceneSafe(lobbySceneName);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void GoToSongSelect()
     {
-        
+        LoadSceneSafe(songSelectSceneName);
     }
-    public void StartBtn()
+
+    private void LoadSceneSafe(string sceneName)
     {
-        SceneManager.LoadScene("SongSelect");
-    }
-    public void SettingBtn()
-    {
-        SceneManager.LoadScene("Setting");
+        if (string.IsNullOrEmpty(sceneName))
+        {
+            Debug.LogWarning("씬 이름이 비어 있습니다.");
+            return;
+        }
+
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(sceneName);
     }
 }

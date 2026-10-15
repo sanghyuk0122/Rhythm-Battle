@@ -15,7 +15,31 @@ EditorBuildSettings:
     path: Assets/Scenes/SongSelect.unity
     guid: affe09a73df5b78498748716cdafbdd7
   - enabled: 1
-    path: Assets/Scenes/Game.unity
+    path: Assets/Scenes/Sosil.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Story2.unity
+    guid: d29be4b14220c7e43bfe66e3db22e054
+  - enabled: 1
+    path: Assets/Scenes/Tell your world.unity
+    guid: 42b81cc82318aeb409a8717b199436ba
+  - enabled: 1
+    path: Assets/Scenes/Senbon.unity
+    guid: 15cc05f5bb2f4d54ea09cbda9496a67d
+  - enabled: 1
+    path: Assets/Scenes/Gostlol.unity
+    guid: 6a69cb49adfcc374599b8c77ad121801
+  - enabled: 1
+    path: Assets/Scenes/Vampire.unity
+    guid: 06df72fd277cc4944a90dbdbd0e99c0d
+  - enabled: 1
+    path: Assets/Scenes/The Intense Voice of Hatsune Miku.unity
+    guid: 0cbba5372a2449146b0fdef27d3a5548
+  - enabled: 1
+    path: Assets/Scenes/Machine Gun Poem Doll.unity
+    guid: aeefbcd93b173ac4c857ce26c7369652
+  - enabled: 1
+    path: Assets/Scenes/Die.unity
+    guid: ac52a36e306a73b42a44bdbddfb2bef1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
