@@ -186,7 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d57a774a27f5ede49a6c8f5a080b8d43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneNavigator
-  menuSceneName: Menu
+  menuSceneName: Lobby
   songSelectSceneName: SongSelect
 --- !u!1 &358278068
 GameObject:

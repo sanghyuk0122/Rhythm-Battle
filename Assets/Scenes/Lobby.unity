@@ -374,6 +374,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a57cff09a9840e94c88822492372c2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StartButton
+  lobbySceneName: Lobby
+  songSelectSceneName: SongSelect
 --- !u!1 &421136380
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,8 +461,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 421136385}
-        m_TargetAssemblyTypeName: StartButton, Assembly-CSharp
-        m_MethodName: StartBtn
+        m_TargetAssemblyTypeName: LobbyButton, Assembly-CSharp
+        m_MethodName: GoToSongSelect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -520,6 +522,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a57cff09a9840e94c88822492372c2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StartButton
+  lobbySceneName: Lobby
+  songSelectSceneName: SongSelect
 --- !u!1 &519533528
 GameObject:
   m_ObjectHideFlags: 0
@@ -1428,6 +1432,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a57cff09a9840e94c88822492372c2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StartButton
+  lobbySceneName: Lobby
+  songSelectSceneName: SongSelect
 --- !u!1 &2017218294
 GameObject:
   m_ObjectHideFlags: 0
