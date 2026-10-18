@@ -12,11 +12,11 @@ public class SelecSong : MonoBehaviour
     {
         "Tell your world", // 1
         "Senbon",          // 2
-        "Gostlol",                // 3
-        "Vampire",                // 4
-        "The Intense Voice of Hatsune Miku",                // 5
-        "Die",                // 6
-        "Machine Gun Poem Doll",                // 7
+        "Gostlol",         // 3
+        "Vampire",         // 4
+        "The Intense Voice of Hatsune Miku",  // 5
+        "Die",             // 6
+        "Machine Gun Poem Doll",// 7
         "Sosil"                 // 8
     };
 

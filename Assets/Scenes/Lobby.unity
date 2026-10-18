@@ -374,6 +374,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a57cff09a9840e94c88822492372c2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StartButton
+  lobbySceneName: Lobby
+  songSelectSceneName: SongSelect
 --- !u!1 &421136380
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,8 +461,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 421136385}
-        m_TargetAssemblyTypeName: StartButton, Assembly-CSharp
-        m_MethodName: StartBtn
+        m_TargetAssemblyTypeName: LobbyButton, Assembly-CSharp
+        m_MethodName: GoToSongSelect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -520,6 +522,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a57cff09a9840e94c88822492372c2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StartButton
+  lobbySceneName: Lobby
+  songSelectSceneName: SongSelect
 --- !u!1 &519533528
 GameObject:
   m_ObjectHideFlags: 0
@@ -992,7 +996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Text
   m_Material: {fileID: 0}
-  m_Color: {r: 0.28773582, g: 0.9721119, b: 1, a: 1}
+  m_Color: {r: 0.28627455, g: 0.9627935, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1002,7 +1006,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 128
-    m_FontStyle: 3
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 256
@@ -1012,7 +1016,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rhythm Battle
+  m_Text: mEMOriA
 --- !u!222 &1113517823
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1428,6 +1432,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a57cff09a9840e94c88822492372c2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StartButton
+  lobbySceneName: Lobby
+  songSelectSceneName: SongSelect
 --- !u!1 &2017218294
 GameObject:
   m_ObjectHideFlags: 0

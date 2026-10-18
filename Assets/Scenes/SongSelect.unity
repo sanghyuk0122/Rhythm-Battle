@@ -186,7 +186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d57a774a27f5ede49a6c8f5a080b8d43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneNavigator
-  menuSceneName: Menu
+  menuSceneName: Lobby
   songSelectSceneName: SongSelect
 --- !u!1 &358278068
 GameObject:
@@ -906,7 +906,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1420265911}
+      - m_Target: {fileID: 244713253}
         m_TargetAssemblyTypeName: SelecSong, Assembly-CSharp
         m_MethodName: SongD
         m_Mode: 1
@@ -2174,7 +2174,7 @@ GameObject:
   - component: {fileID: 1442403340}
   - component: {fileID: 1442403339}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: Button (Lobby)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3660,6 +3660,6 @@ SceneRoots:
   - {fileID: 1404696490}
   - {fileID: 1559646546}
   - {fileID: 499478716}
+  - {fileID: 244713252}
   - {fileID: 358278070}
   - {fileID: 1420265912}
-  - {fileID: 244713252}
