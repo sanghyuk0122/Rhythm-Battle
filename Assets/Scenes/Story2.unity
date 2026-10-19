@@ -449,8 +449,9 @@ GameObject:
   - component: {fileID: 1595199040}
   - component: {fileID: 1595199042}
   - component: {fileID: 1595199041}
+  - component: {fileID: 1595199043}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: Story22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -497,7 +498,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 65
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -508,12 +509,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC5D0\uD53C\uC18C\uB4DC 2 : \uC5B4\uAE0B\uB09C \uC120\uC728\n\uBBF8\uCFE0\uB294
-    \uD3C9\uC18C\uCC98\uB7FC \uBC1D\uC740 \uBBF8\uC18C\uB85C \uBB34\uB300\uC5D0 \uC62C\uB77C
-    \uB178\uB798\uB97C \uC2DC\uC791\uD588\uB2E4.\r\n\r\n\uADF8\uB7F0\uB370 \uB178\uB798\uB97C
-    \uBD80\uB974\uB358 \uC911, \uAC11\uC790\uAE30 \uB2E4\uC74C \uAC00\uC0AC\uAC00
-    \uB5A0\uC624\uB974\uC9C0 \uC54A\uC558\uB2E4.\r\n\r\n\r\n\uC7A0\uC2DC \uB2F9\uD669\uD55C
-    \uBBF8\uCFE0\uB294 \uC6C3\uC73C\uBA70 \uACF5\uC5F0\uC744 \uC774\uC5B4 \uAC14\uB2E4."
+  m_Text: "2\uB9C9 : \uC5B4\uAE0B\uB09C \uC120\uC728\r\n\r\n\uC791\uC740 \uADE0\uC5F4\uC758
+    \uC2DC\uC791"
 --- !u!222 &1595199042
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -522,6 +519,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595199039}
   m_CullTransparentMesh: 1
+--- !u!114 &1595199043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595199039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8dee6e5a7a967640809263ed207382d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Story2
+  Story22: {fileID: 1595199041}
 --- !u!1 &1947007601
 GameObject:
   m_ObjectHideFlags: 0
