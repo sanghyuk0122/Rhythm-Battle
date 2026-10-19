@@ -15,11 +15,11 @@ public class JudgeManager : MonoBehaviour
     public static event Action<Judgement, int> OnJudged;   // (판정, 현재 콤보)
 
     [Header("판정 범위 (초, 정확한 타이밍 기준 ±)")]
-    public float perfectWindow = 0.06f;
-    public float greatWindow = 0.11f;
-    public float goodWindow = 0.16f;
-    public float badWindow = 0.22f;    // 이 범위를 넘어 늦으면 자동 미스
-    public float earlyWindow = 0.12f;  // 일찍 누를 때 인정하는 범위
+    public float perfectWindow = 0.025f;
+    public float greatWindow = 0.05f;
+    public float goodWindow = 0.075f;
+    public float badWindow = 0.10f;    // 이 범위를 넘어 늦으면 자동 미스
+    public float earlyWindow = 0.10f;  // 일찍 누를 때 인정하는 범위
 
     [Header("점수")]
     public int perfectScore = 1000;
@@ -160,7 +160,7 @@ public class JudgeManager : MonoBehaviour
         }
 
         // 굿 이상이면 콤보 유지, 배드/미스면 콤보 끊김
-        if (j == Judgement.Miss || j == Judgement.Bad)
+        if (j == Judgement.Miss || j == Judgement.Good)
             Combo = 0;
         else
             Combo++;

@@ -138,7 +138,7 @@ public class NoteSpawner : MonoBehaviour
 
         if (!playing) return;
 
-        SongTime = (float)(AudioSettings.dspTime - startDspTime);
+        SongTime = (float)(AudioSettings.dspTime - startDspTime) - noteDelay;
 
         if (chart == null || chart.notes.Count == 0)
             return;

@@ -1927,7 +1927,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   missLimit: 20
   songSelectSceneName: SongSelect
-  storySceneName: Story 6
+  storySceneName: Story6
   endDelay: 2.5
   showGui: 1
 --- !u!1 &1980740504

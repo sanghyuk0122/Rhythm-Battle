@@ -449,8 +449,9 @@ GameObject:
   - component: {fileID: 1595199040}
   - component: {fileID: 1595199042}
   - component: {fileID: 1595199041}
+  - component: {fileID: 1595199043}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: Story33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -508,11 +509,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC5D0\uD53C\uC18C\uB4DC 3 : \uB0AE\uC120 \uC77C\uC0C1\n\uACF5\uC5F0\uC744
-    \uB9C8\uCE5C \uBBF8\uCFE0\uB294 \uB300\uAE30\uC2E4\uC5D0\uC11C \uD3C9\uC18C \uC990\uACA8
-    \uB4E3\uB358 \uB178\uB798\uB97C \uD2C0\uC5C8\uB2E4.\r\n\r\n\uD558\uC9C0\uB9CC
-    \uB178\uB798\uAC00 \uD758\uB7EC\uB098\uC640\uB3C4 \uC774\uC0C1\uD558\uAC8C \uC775\uC219\uD558\uB2E4\uB294
-    \uB290\uB08C\uC774 \uB4E4\uC9C0 \uC54A\uC558\uB2E4.\r\n"
+  m_Text: "3\uB9C9 : \uB0AF\uC120 \uC77C\uC0C1\r\n\r\n\uBB34\uAC10\uAC01\uD574\uC9C4
+    \uAC10\uC131"
 --- !u!222 &1595199042
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -521,6 +519,24 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595199039}
   m_CullTransparentMesh: 1
+--- !u!114 &1595199043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595199039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 129cfbbd7fb0cf341a199c94d93aaf15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Story3
+  Story33: {fileID: 1595199041}
+  fadeInTime: 1
+  fadeOutTime: 1
+  holdTime: 3
+  nextSceneName: SongSelect
+  sceneChangeDelay: 1
 --- !u!1 &1947007601
 GameObject:
   m_ObjectHideFlags: 0
